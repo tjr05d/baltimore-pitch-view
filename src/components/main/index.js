@@ -20,6 +20,11 @@ const Header = styled.header`
 
 const Content = styled.div`
   display: flex;
+  @media only screen 
+  and (min-device-width : 375px) 
+  and (max-device-width : 812px) {
+    flex-direction: column;
+  }
 `
 const ControlPanel = styled.div`
   flex: 1;
