@@ -14,9 +14,9 @@ const ContourPlot = ({ data }) => {
   return (
       <XYPlot 
         width={500}
-        getX={d => d.x}
-        getY={d => d.y}
-        height={600}
+        xDomain={[-1, 1]}
+        yDomain={[1.5, 3.5]}
+        height={700}
         style={{position: 'relative'}}
       >
         <ContourSeries
